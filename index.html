@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gururajan | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="logo">PORTFOLIO</div>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gururajan Ganesh Babu — B.Tech ECE student at SRMIST. Portfolio showcasing embedded systems and data analytics projects, certifications, and contact details." />
+  <title>Gururajan | Portfolio</title>
 
-    <header id="about">
-      
-      <div class="animation-visual"></div>
-      <h1>Hi, I'm <span class="highlight">Gururajan Ganesh Babu</span></h1>
-      <div class="wave-container" id="wave">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome (icons used in markup) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="" crossorigin="anonymous" />
+
+  <!-- Fallback favicon (optional) -->
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <nav>
+    <div class="logo">PORTFOLIO</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="about" class="site-header" aria-labelledby="about-heading">
+    <div class="animation-visual" aria-hidden="true"></div>
+    <h1 id="about-heading">Hi, I'm <span class="highlight">Gururajan Ganesh Babu</span></h1>
+    <p>ECE Major & Data Science Enthusiast</p>
+    <p class="tagline">Bridging the gap between hardware signals and intelligent data.</p>
+    <div class="header-actions">
+      <!-- Prefer PDF resume for wider compatibility -->
+      <a href="Resume.pdf" download="Gururajan_Resume.pdf" class="download-btn">
+        <i class="fas fa-file-pdf"></i> Download Resume
+      </a>
+      <a href="#contact" class="contact-btn">Get In Touch</a>
     </div>
-      <p>ECE Major & Data Science Enthusiast</p>
-      <p class="tagline">
-        Bridging the gap between hardware signals and intelligent data.
-      </p>
-      <hr>
-    </header>
-    <section id="about-me" class="about-container">
+  </header>
+
+  <main>
+    <section id="about-me" class="about-container" aria-labelledby="about-me-heading">
+      <h2 id="about-me-heading">The Intersection of <span class="highlight">Hardware & Intelligence</span></h2>
       <div class="about-content">
         <div class="about-image">
-          <div class="image-placeholder">
-            <img src="profile.jpeg" alt="Your Profile Photo" />
-          </div>
+          <img src="profile.jpeg" alt="Gururajan Ganesh Babu — profile photo" />
         </div>
-
         <div class="about-text">
-          <h2>
-            The Intersection of
-            <span class="highlight">Hardware & Intelligence</span>
-          </h2>
           <p>
-            I am a student at
-            <strong>SRM Institue of Science and Technology</strong>,
-            dual-specializing in Electronics & Communication Engineering and
-            Data Science. My fascination lies in how physical signals from the
-            real world are translated into digital insights that drive
-            decision-making.
+            I am a student at <strong>SRM Institute of Science and Technology</strong>,
+            dual-specializing in Electronics & Communication Engineering and Data Science.
           </p>
           <p>
-            Whether I'm debugging a <strong>PCB layout</strong> or optimizing a
-            <strong>Machine Learning model</strong>, I focus on efficiency and
-            scalability. I enjoy building systems that are not just smart, but
-            physically robust.
+            Whether I'm debugging a <strong>PCB layout</strong> or optimizing a <strong>machine learning model</strong>,
+            I focus on efficiency and scalability.
           </p>
 
-          <div class="edu-box">
+          <div class="edu-box" aria-label="Education">
             <h4>Education</h4>
             <ul>
               <li><strong>B.Tech in ECE</strong> - Expected 2028</li>
@@ -66,290 +66,236 @@
         </div>
       </div>
     </section>
-    <section id="certifications" class="certs-container">
-    <section id="certifications" class="certs-container">
-    <div class="section-title">
-        <h2>Professional <span class="highlight">Certifications</span></h2>
-        <p>Verified by NPTEL, Coursera, and SRMIST Workshops</p>
-    </div>
 
-    <div class="cert-grid">
+    <section id="certifications" class="certs-container" aria-labelledby="certs-heading">
+      <h2 id="certs-heading">Professional <span class="highlight">Certifications</span></h2>
+      <p>Verified by NPTEL, Coursera, and SRMIST Workshops</p>
+
+      <div class="cert-grid">
         <div class="cert-card">
-            <div class="cert-preview">
-                <img src="https://raw.githubusercontent.com/guru0103-sys/certies/main/Data Analytics with Python_page-0001.jpg" alt="Data Analytics Certification">
-            </div>
-            <div class="cert-info">
-                <h4>Data Analytics with Python</h4>
-                <p>NPTEL / IIT Kanpur</p>
-                <a href="https://github.com/guru0103-sys/certies" target="_blank" class="verify-link">Verify on GitHub</a>
-            </div>
+          <div class="cert-preview">
+            <img src="https://raw.githubusercontent.com/guru0103-sys/certies/main/Data Analytics with Python_page-0001.jpg" alt="Data Analytics with Python certificate — NPTEL / IIT Kanpur" />
+          </div>
+          <div class="cert-info">
+            <h4>Data Analytics with Python</h4>
+            <p>NPTEL / IIT Kanpur</p>
+            <a href="https://github.com/guru0103-sys/certies" target="_blank" rel="noopener noreferrer" class="verify-link">Verify on GitHub</a>
+          </div>
         </div>
 
         <div class="cert-card">
-            <div class="cert-preview">
-                <img src="https://raw.githubusercontent.com/guru0103-sys/certies/main/Gururajan Internship Completion Letter_page-0001.jpg
-" alt="Internship CompletionS Certification">
-            </div>
-            <div class="cert-info">
-                <h4>Internship Completion</h4>
-                <p>Beau Roi TEchnologies</p>
-                <a href="https://github.com/guru0103-sys/certies" target="_blank" class="verify-link">Verify on GitHub</a>
-            </div>
+          <div class="cert-preview">
+            <img src="https://raw.githubusercontent.com/guru0103-sys/certies/main/Gururajan%20Internship%20Completion%20Letter_page-0001.jpg" alt="Internship completion letter — Beau Roi Technologies" />
+          </div>
+          <div class="cert-info">
+            <h4>Internship Completion</h4>
+            <p>Beau Roi Technologies</p>
+            <a href="https://github.com/guru0103-sys/certies" target="_blank" rel="noopener noreferrer" class="verify-link">Verify on GitHub</a>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
 
-<a href="certificates.html" class="view-all-btn">View All Certificates</a>
+      <a href="certificates.html" class="view-all-btn">View All Certificates</a>
+    </section>
 
-</section>
-<section id="extracurricular" class="extra-section">
-    <div class="section-title">
-        <h2>Beyond the <span class="highlight">Classroom</span></h2>
-    </div>
-    <div class="extra-grid">
+    <section id="extracurricular" class="extra-section" aria-labelledby="extra-heading">
+      <h2 id="extra-heading">Beyond the <span class="highlight">Classroom</span></h2>
+      <div class="extra-grid">
         <div class="extra-card">
-            <div class="icon">🏆</div>
-            <h3>Sports</h3>
-            <p>Active participant in sports, fostering teamwork and physical resilience.</p>
+          <div class="icon" aria-hidden="true">🏆</div>
+          <h3>Sports</h3>
+          <p>Active participant in sports, fostering teamwork and physical resilience.</p>
         </div>
         <div class="extra-card">
-            <div class="icon">📖</div>
-            <h3>Literature</h3>
-            <p>Passionate about literature and linguistic expression.</p>
+          <div class="icon" aria-hidden="true">📖</div>
+          <h3>Literature</h3>
+          <p>Passionate about literature and linguistic expression.</p>
         </div>
         <div class="extra-card">
-            <div class="icon">🇯🇵</div>
-            <h3>Languages</h3>
-            <p>Fluent in English, Tamil, and Hindi; currently learning Japanese basics.</p>
+          <div class="icon" aria-hidden="true">🇯🇵</div>
+          <h3>Languages</h3>
+          <p>Fluent in English, Tamil, and Hindi; currently learning Japanese basics.</p>
         </div>
-    </div>
-</section>
-<section id="skills" class="skills-section">
-    <div class="section-title">
-      <section id="toolbox" class="toolbox-section">
-    <div class="section-title">
-        <h2>Technical <span class="highlight">Toolbox</span></h2>
-        <p>Skills acquired during B-Tech Year 1 & 2</p>
-    </div>
+      </div>
+    </section>
 
-    <div class="toolbox-grid">
+    <section id="toolbox" class="toolbox-section" aria-labelledby="toolbox-heading">
+      <h2 id="toolbox-heading">Technical <span class="highlight">Toolbox</span></h2>
+      <p>Skills acquired during B-Tech Year 1 & 2</p>
+
+      <div class="toolbox-grid">
         <div class="tool-category">
-            <h3><i class="fas fa-database"></i> Data Science & Software</h3>
-            <div class="skill-bar">
-                <div class="skill-info"><span>Python</span><span>90%</span></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 90%;"></div></div>
-            </div>
-            <div class="skill-bar">
-                <div class="skill-info"><span>Data Analytics (NPTEL)</span><span>85%</span></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 85%;"></div></div>
-            </div>
-            <div class="skill-bar">
-                <div class="skill-info"><span>MS Excel</span><span>80%</span></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 80%;"></div></div>
-            </div>
+          <h3><i class="fas fa-database" aria-hidden="true"></i> Data Science & Software</h3>
+          <div class="skill-bar">
+            <div class="skill-info"><span>Python</span><span>90%</span></div>
+            <div class="progress-bg"><div class="progress-fill" style="width:90%;"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>Data Analytics (NPTEL)</span><span>85%</span></div>
+            <div class="progress-bg"><div class="progress-fill" style="width:85%;"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>MS Excel</span><span>80%</span></div>
+            <div class="progress-bg"><div class="progress-fill" style="width:80%;"></div></div>
+          </div>
         </div>
 
         <div class="tool-category">
-            <h3><i class="fas fa-microchip"></i> ECE & Core Engineering</h3>
-            <div class="skill-bar">
-                <div class="skill-info"><span>AutoCAD</span><span>75%</span></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 75%;"></div></div>
-            </div>
-            <div class="skill-bar">
-                <div class="skill-info"><span>C Programming</span><span>80%</span></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 80%;"></div></div>
-            </div>
-            <div class="skill-bar">
-                <div class="skill-info"><span>Arduino (Basics)</span><span>70%</span></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 70%;"></div></div>
-            </div>
+          <h3><i class="fas fa-microchip" aria-hidden="true"></i> ECE & Core Engineering</h3>
+          <div class="skill-bar">
+            <div class="skill-info"><span>AutoCAD</span><span>75%</span></div>
+            <div class="progress-bg"><div class="progress-fill" style="width:75%;"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>C Programming</span><span>80%</span></div>
+            <div class="progress-bg"><div class="progress-fill" style="width:80%;"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>Arduino (Basics)</span><span>70%</span></div>
+            <div class="progress-bg"><div class="progress-fill" style="width:70%;"></div></div>
+          </div>
         </div>
 
         <div class="tool-category">
-            <h3><i class="fas fa-globe"></i> Languages</h3>
-            <div class="lang-tags">
-                <span class="lang-tag">English (Fluent)</span>
-                <span class="lang-tag">Tamil (Native)</span>
-                <span class="lang-tag">Hindi (Fluent)</span>
-                <span class="lang-tag">Japanese (Basic)</span>
-            </div>
+          <h3><i class="fas fa-globe" aria-hidden="true"></i> Languages</h3>
+          <div class="lang-tags">
+            <span class="lang-tag">English (Fluent)</span>
+            <span class="lang-tag">Tamil (Native)</span>
+            <span class="lang-tag">Hindi (Fluent)</span>
+            <span class="lang-tag">Japanese (Basic)</span>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    
-    <script src="script.js"></script>
-</body>
-  </body>
-</html>
+    <section id="projects" class="project-section" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Featured <span class="highlight">Projects</span></h2>
+      <p>Showcasing my work in Embedded Systems and Data Analytics</p>
 
+      <div class="project-grid">
+        <article class="project-card hardware">
+          <div class="project-tag">ECE / Arduino</div>
+          <h3>Sleep Detection Alarm System</h3>
+          <p class="description">A working model designed for car safety using infrared sensors to monitor driver alertness.</p>
+          <ul class="project-details">
+            <li><strong>Role:</strong> Assembling and testing the physical model.</li>
+            <li><strong>Stack:</strong> Arduino, IR Sensors</li>
+            <li><strong>Result:</strong> Fully functional prototype with planned future enhancements.</li>
+          </ul>
+        </article>
 
-<section id="projects" class="project-section">
-    <div class="section-title">
-        <h2>Featured <span class="highlight">Projects</span></h2>
-        <p>Showcasing my work in Embedded Systems and Data Analytics</p>
-    </div>
+        <article class="project-card data-science">
+          <div class="project-tag">Data Science / Python</div>
+          <h3>NPTEL Data Analytics Exploration</h3>
+          <p class="description">Applied statistical methods and Python-based analytics to interpret complex datasets.</p>
+          <ul class="project-details">
+            <li><strong>Focus:</strong> Data Cleaning, Visualization, and Predictive Modeling.</li>
+            <li><strong>Stack:</strong> Python (Pandas/Matplotlib)</li>
+            <li><strong>Outcome:</strong> Certified mastery in Data Analytics with Python.</li>
+          </ul>
+        </article>
 
-    <div class="project-grid">
-        <div class="project-card hardware">
-            <div class="project-tag">ECE / Arduino</div>
-            <h3>Sleep Detection Alarm System</h3>
-            <p class="description">A working model designed for car safety using infrared sensors to monitor driver alertness.</p>
-            <ul class="project-details">
-                <li><strong>Role:</strong> Assembling and testing the physical model.</li>
-                <li><strong>Stack:</strong> Arduino, IR Sensors, .</li>
-                <li><strong>Result:</strong> Fully functional prototype with planned future enhancements.</li>
-            </ul>
-        </div>
+        <article class="project-card placeholder">
+          <div class="project-tag">Next Milestone</div>
+          <h3>AIML Internship Project</h3>
+          <p>Ready to apply AIML techniques in a professional environment at Beau Roi Technologies.</p>
+        </article>
+      </div>
+    </section>
 
-        <div class="project-card data-science">
-            <div class="project-tag">Data Science / Python</div>
-            <h3>NPTEL Data Analytics Exploration</h3>
-            <p class="description">Applied statistical methods and Python-based analytics to interpret complex datasets.</p>
-            <ul class="project-details">
-                <li><strong>Focus:</strong> Data Cleaning, Visualization, and Predictive Modeling.</li>
-                <li><strong>Stack:</strong> Python (Pandas/Matplotlib), .</li>
-                <li><strong>Outcome:</strong> Certified mastery in Data Analytics with Python.</li>
-            </ul>
-        </div>
+    <section id="work" class="bento-container" aria-labelledby="work-heading">
+      <h2 id="work-heading">Engineering <span class="highlight">Portfolio</span></h2>
+      <p>B-Tech ECE Student | Data Science Specialist</p>
 
-        <div class="project-card placeholder">
-            <div class="project-tag">Next Milestone</div>
-            <h3>AIML Internship Project</h3>
-            <p>Ready to apply AIML techniques in a professional environment at Beau Roi Technologies.</p>
-        </div>
-    </div>
-</section>
-
-<section id="work" class="bento-container">
-    <div class="section-title">
-        <h2>Engineering <span class="highlight">Portfolio</span></h2>
-        <p>B-Tech ECE Student | Data Science Specialist</p>
-    </div>
-
-    <div class="bento-grid">
+      <div class="bento-grid">
         <div class="bento-item main-project">
-            <span class="tag">Flagship Project</span>
-            <h3>Sleep Detection Alarm System</h3>
-            <p>Developing a car safety model using <strong>Arduino</strong> and <strong>IR Sensors</strong>.</p>
-            <div class="role-badge">Role: Assembly & Testing </div>
-            <div class="project-icons">🔌 🚗 🤖</div>
+          <span class="tag">Flagship Project</span>
+          <h3>Sleep Detection Alarm System</h3>
+          <p>Developing a car safety model using <strong>Arduino</strong> and <strong>IR Sensors</strong>.</p>
         </div>
 
         <div class="bento-item skills-tall">
-            <h3>Technical Stack </h3>
-            <ul class="skill-list">
-                <li><i class="fab fa-python"></i> Python</li>
-                <li><i class="fas fa-code"></i> C</li>
-                <li><i class="fas fa-pencil-ruler"></i> AutoCAD</li>
-                <li><i class="fas fa-microchip"></i> Arduino</li>
-            </ul>
+          <h3>Technical Stack</h3>
+          <ul class="skill-list">
+            <li><i class="fab fa-python" aria-hidden="true"></i> Python</li>
+            <li><i class="fas fa-code" aria-hidden="true"></i> C</li>
+            <li><i class="fas fa-pencil-ruler" aria-hidden="true"></i> AutoCAD</li>
+            <li><i class="fas fa-microchip" aria-hidden="true"></i> Arduino</li>
+          </ul>
         </div>
 
         <div class="bento-item cert-small">
-            <span class="tag">NPTEL </span>
-            <h4>Data Analytics</h4>
-            <p>Python-based statistical modeling and insights.</p>
+          <span class="tag">NPTEL</span>
+          <h4>Data Analytics</h4>
+          <p>Python-based statistical modeling and insights.</p>
         </div>
 
         <div class="bento-item soft-skills">
-            <h4>Global Profile</h4>
-            <p>Fluent: English, Tamil, Hindi </p>
-            <p>Learning: <strong>Japanese</strong></p>
+          <h4>Global Profile</h4>
+          <p>Fluent: English, Tamil, Hindi</p>
+          <p>Learning: <strong>Japanese</strong></p>
         </div>
+      </div>
+    </section>
 
-        <div class="bento-item internship-goal">
-            <h3>Future Addition: Beau Roi Technologies</h3>
-            <p>Targeting Data Analytics/AIML Internship to apply academic knowledge.</p>
-            <span class="status">Status: 2nd Year B-Tech </span>
-        </div>
-    </div>
-</section>
-<header id="about">
-    <h1>Hi, I'm <span class="highlight">Gururajan Ganesh Babu</span></h1>
-    <p>B-Tech ECE Student @ SRMIST | Data Science Specialist</p>
-    
-    <div class="header-actions">
-        <a href="Resume.docx" download="Gururajan_Resume.docx" class="download-btn">
-            <i class="fas fa-file-download"></i> Download Resume
-        </a>
-        <a href="#contact" class="contact-btn">Get In Touch</a>
-    </div>
-</header>
-<section id="contact" class="contact-section">
-    <div class="section-title">
-        <h2>Get In <span class="highlight">Touch</span></h2>
-        <p>I am currently seeking internship opportunities in Data Analytics or AIML.</p>
-    </div>
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get In <span class="highlight">Touch</span></h2>
+      <p>I am currently seeking internship opportunities in Data Analytics or AIML.</p>
 
-    <div class="contact-container">
+      <div class="contact-container">
         <div class="contact-info">
-            <div class="info-item">
-                <i class="fas fa-envelope"></i>
-                <div>
-                    <h4>Email Me</h4>
-                    <a href="mailto:rajanguru0103@gmail.com">rajanguru0103@gmail.com</a> 
-                </div>
+          <div class="info-item">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <div>
+              <h4>Email Me</h4>
+              <a href="mailto:rajanguru0103@gmail.com">rajanguru0103@gmail.com</a>
             </div>
+          </div>
 
-            <div class="info-item">
-                <i class="fas fa-phone-alt"></i>
-                <div>
-                        <h4>Contact Info</h4>
-                        <a href="tel:+919751860530">+91 97518 60530</a> 
-                </div>
+          <div class="info-item">
+            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+            <div>
+              <h4>Contact Info</h4>
+              <a href="tel:+919751860530">+91 97518 60530</a>
             </div>
+          </div>
 
-            <div class="info-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <div>
-                    <h4>Location</h4>
-                    <p><a href="https://maps.google.com/?q=Chennai">Chennai</a></p>
-                </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <div>
+              <h4>Location</h4>
+              <p><a href="https://maps.google.com/?q=Chennai" target="_blank" rel="noopener noreferrer">Chennai</a></p>
             </div>
-    </div>
+          </div>
+        </div>
 
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message for Gururajan" rows="5" required></textarea>
-            <button type="submit" class="submit-btn">Send Message</button>
+        <form class="contact-form" method="post" action="#" aria-label="Contact form for Gururajan">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" placeholder="Your Name" required>
+
+          <label for="email">Your Email</label>
+          <input id="email" name="email" type="email" placeholder="Your Email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message for Gururajan" rows="5" required></textarea>
+
+          <button type="submit" class="submit-btn">Send Message</button>
         </form>
-    </div>
-</section>
+      </div>
+    </section>
+  </main>
 
-
-        <div class="contact-grid">
-            <div class="contact-sidebar">
-                <div class="contact-card">
-                    <i class="fas fa-envelope"></i>
-                    <h4>Email</h4>
-                    <p><a href="mailto:rajanguru0103@gmail.com">rajanguru0103@gmail.com</a> </p>
-                </div>
-
-                <div class="contact-card">
-                    <i class="fas fa-phone-alt"></i>
-                    <h4>Phone</h4>
-                    <p><a href="tel:+919751860530">+91 97518 60530 </a> </p>
-                </div>
-
-                <div class="contact-card">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h4>Location</h4>
-                    <p><a href="https://maps.google.com/?q=Chennai">Chennai</a></p>
-                </div>
-            </div>
-
-        
-
-<section class="final-thought">
+  <footer class="final-thought" role="contentinfo">
     <div class="quote-container">
-        <i class="fas fa-quote-left"></i>
-        <p class="quote-text">Engineering is not just about building circuits; it's about finding the logic in the chaos of data.</p>
-        <div class="quote-line"></div>
-        <span class="location-tag">Porur, Chennai | 2024</span>
+      <i class="fas fa-quote-left" aria-hidden="true"></i>
+      <p class="quote-text">Engineering is not just about building circuits; it's about finding the logic in the chaos of data.</p>
+      <div class="quote-line" aria-hidden="true"></div>
+      <span class="location-tag">Porur, Chennai | 2024</span>
     </div>
+  </footer>
 
-</section>
+  <!-- Scripts (placed before closing body) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
